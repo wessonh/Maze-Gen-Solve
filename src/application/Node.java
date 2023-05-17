@@ -10,6 +10,7 @@ public class Node {
 	boolean right = true;
 	boolean left = true;
 	boolean visited;
+	boolean solved;
 	boolean end;
 	int row;
 	int col;
@@ -20,8 +21,7 @@ public class Node {
 		this.col = col;
 		this.row = row;
 		end = false;
-		//Random ran = new Random();
-		//wall = ran.nextBoolean();
+		solved = false;
 	}
 
 }
