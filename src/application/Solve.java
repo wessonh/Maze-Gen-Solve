@@ -27,7 +27,7 @@ public class Solve {
 				for(Node neighbor : current.neighbors) {
 					
 					if(neighbor.visited) {
-						System.out.println(neighbor.row + " " + neighbor.col + " , " + current.row + " " + current.col);
+						
 						
 						if(neighbor.row < current.row) {
 								
