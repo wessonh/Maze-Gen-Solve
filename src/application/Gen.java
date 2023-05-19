@@ -2,7 +2,6 @@ package application;
 
 import java.util.Collections;
 import java.util.Stack;
-
 import javafx.scene.Group;
 import javafx.scene.shape.Line;
 import javafx.scene.text.Text;
